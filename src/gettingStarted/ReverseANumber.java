@@ -11,6 +11,7 @@ public class ReverseANumber {
             int revDigit = num%10;
             System.out.println(revDigit);
             num/=10;
+
         }
     }
 }
