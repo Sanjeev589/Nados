@@ -115,6 +115,7 @@ public class AddAtLinkedList {
                 int i =0;
                 while(i<idx-1){
                     temp = temp.next;
+                    i++;
                 }
                 n.next = temp.next;
                 temp.next = n;
